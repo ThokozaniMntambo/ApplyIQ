@@ -4,7 +4,7 @@ const cors = require('cors')
 const dotenv = require('dotenv')
 const connectDB = require("./config/db")
 const applicationRoutes = require('./routes/applicationRoutes')
-
+const authRoutes = require('./routes/authRoutes')
 
 // Fix: Use CommonJS require for DNS
 const dns = require('node:dns');
@@ -21,7 +21,7 @@ app.use(express.json())
 
 // Routes
 app.use('/api/applications', applicationRoutes)
-
+app.use('/api/auth', authRoutes)
 // Test route
 app.get('/', (req, res) => {
   res.send('ApplyIQ API is running....')

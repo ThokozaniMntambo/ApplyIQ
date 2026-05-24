@@ -1,4 +1,7 @@
-echo "node_modules/
+# Dependency directories
+node_modules/
+
+# Environment variables and secrets
 .env
-.DS_Store
-dist/" > .gitignore
+.env.local
+.env.*
