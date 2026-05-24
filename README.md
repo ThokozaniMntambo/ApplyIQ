@@ -4,8 +4,6 @@ ApplyIQ is a modern job application tracking platform that helps users organize 
 
 Users can create an account, track applications, monitor interview progress, and manage job statuses all in one clean dashboard.
 
----
-
 ## ✨ Features
 
 - 🔐 User Authentication (Register/Login)
@@ -17,39 +15,23 @@ Users can create an account, track applications, monitor interview progress, and
 - 📱 Responsive and clean UI
 - 🔒 Protected routes and user-specific data
 
----
-
-## 📸 Screenshots
-
-### Landing Page
-(Add screenshot here)
-
-### Dashboard
-(Add screenshot here)
-
-### Authentication
-(Add screenshot here)
-
----
-
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - React
 - TypeScript
-- Tailwind CSS
+- charkra Ul
 - Vite
 
 ### Backend
-(Add your backend here)
-Example:
+
 - Node.js
 - Express.js
 - MongoDB
 
 ### Authentication
-(Add auth method)
-Example:
+
 - JWT Authentication
 - bcrypt password hashing
 
@@ -60,4 +42,8 @@ Example:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/applyiq.git
+git clone https://github.com/ThokozaniMntambo/applyiq.git
+=======
+# ApplyIQ
+
+```
